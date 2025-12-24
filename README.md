@@ -18,7 +18,7 @@ This project explores **broad-phase discrete collision detection** by implementi
 - This comparison is **not a rigorous benchmark**, but a high-level tool for understanding algorithm behavior.
 
 ---
-## 📸 Project Screenshots from Unity
+## 📸 Project Screenshot from Unity
 
 #### 🔷 Broad-Phase Collision Scene (2D)
 
