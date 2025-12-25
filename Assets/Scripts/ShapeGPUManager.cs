@@ -109,7 +109,7 @@ public class ShapeGPUManager : MonoBehaviour
         maxY = tr.y;
     }
 
-    void SpawnShapes(List<ShapeInstance> list, int count, float minScale = 0.1f, float maxScale = 0.4f)
+    void SpawnShapes(List<ShapeInstance> list, int count, float minScale = 0.1f, float maxScale = 0.6f)
     {
         for (int i = 0; i < count; i++)
         {

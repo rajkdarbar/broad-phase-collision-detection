@@ -158,8 +158,8 @@ public class SpatialHashingCollision : MonoBehaviour
         Gizmos.color = Color.cyan;
         foreach (var kv in hashGrid)
         {
-            Vector3 center = new Vector3(kv.Key.x + 0.5f, kv.Key.y + 0.5f, 0) * cellSize;
-            Gizmos.DrawWireCube(center, Vector3.one * cellSize);
+            Vector3 center = new Vector3(kv.Key.x + 0.5f, kv.Key.y + 0.5f, 0) * cellSize;            
+            Gizmos.DrawWireCube(center, new Vector3(cellSize, cellSize, 0f));
         }
     }
 }

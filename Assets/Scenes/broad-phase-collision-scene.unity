@@ -161,7 +161,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 72260673}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 28b56096ab9271942a302136d5bf42de, type: 3}
   m_Name: 
@@ -192,7 +192,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 72260673}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c4237006217e8664e925da035a2f6d7d, type: 3}
   m_Name: 
@@ -216,7 +216,7 @@ MonoBehaviour:
   spatialHashingCollision: {fileID: 72260677}
   sweepAndPrune: {fileID: 72260675}
   testDuration: 5
-  gridFPS: 0
+  uniformGridFPS: 0
   spatialHashingFPS: 0
   sweepAndPruneFPS: 0
 --- !u!1 &203844586
@@ -515,7 +515,7 @@ MonoBehaviour:
   shapeMaterial: {fileID: 2100000, guid: 18ebbc15a086b1c4ab219248503d0da8, type: 2}
   circleCount: 250
   triangleCount: 200
-  hexagonCount: 200
+  hexagonCount: 150
   squareCount: 20
   gridCollision: {fileID: 72260676}
   spatialHashingCollision: {fileID: 72260677}
